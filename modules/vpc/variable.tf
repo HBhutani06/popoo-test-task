@@ -1,0 +1,13 @@
+variable "vpc_cidr" {}
+variable "vpc_name" {}
+variable "public_subnet_name" {}
+variable "public_subnet_cidr" {}
+variable "public_subnet_availability_zone" {}
+variable "private_subnet_name" {}
+variable "private_subnet_cidr" {}
+variable "private_subnet_availability_zone" {}
+variable "elasticip_name" {}
+variable "internet_gateway_name" {}
+variable "nat_gateway_name" {}
+variable "public_route_table_name" {}
+variable "private_route_table_name" {}
